@@ -18,10 +18,10 @@
             
 
             <tr>
-                <td><input class="num-btn" type="button" value="AC" onclick="remove()"></td>
+                <td><input style="background-color: rgb(187, 32, 32); color: black;" class="num-btn" type="button" value="AC" onclick="remove()"></td>
                 <td><input class="num-btn" type="button" value="(" onclick="calculator(this.value)"></td>
                 <td><input class="num-btn" type="button" value=")" onclick="calculator(this.value)"></td>
-                <td><input class="num-btn" type="button" value="<" onclick="backspace()"></td>
+                <td><input style="background-color: rgb(206, 155, 16); color: black; font-weight: bold;"  class="num-btn" type="button" value="<" onclick="backspace()"></td>
             </tr>
 
             
@@ -29,14 +29,14 @@
                 <td><input class="num-btn" type="button" value="7" onclick="calculator(this.value)"></td>
                 <td><input class="num-btn" type="button" value="8" onclick="calculator(this.value)"></td>
                 <td><input class="num-btn" type="button" value="9" onclick="calculator(this.value)"></td>
-                <td><input class="num-btn" type="button" value="+" onclick="calculator(this.value)"></td>
+                <td><input style="background-color: rgb(206, 155, 16); color: black; font-weight: bold;"  class="num-btn" type="button" value="+" onclick="calculator(this.value)"></td>
             </tr>
 
             <tr>
                 <td><input class="num-btn" type="button" value="4" onclick="calculator(this.value)"></td>
                 <td><input class="num-btn" type="button" value="5" onclick="calculator(this.value)"></td>
                 <td><input class="num-btn" type="button" value="6" onclick="calculator(this.value)"></td>
-                <td><input class="num-btn" type="button" value="-" onclick="calculator(this.value)"></td>
+                <td><input style="background-color: rgb(206, 155, 16); color: black; font-weight: bold;" class="num-btn" type="button" value="-" onclick="calculator(this.value)"></td>
             </tr>
 
 
@@ -44,14 +44,14 @@
                 <td><input class="num-btn" type="button" value="1" onclick="calculator(this.value)"></td>
                 <td><input class="num-btn" type="button" value="2" onclick="calculator(this.value)"></td>
                 <td><input class="num-btn" type="button" value="3" onclick="calculator(this.value)"></td>
-                <td><input class="num-btn" type="button" value="*" onclick="calculator(this.value)"></td>
+                <td><input style="background-color: rgb(206, 155, 16); color: black; font-size: 42px; font-weight: bold;" class="num-btn" type="button" value="*" onclick="calculator(this.value)"></td>
             </tr>
 
             <tr>
                 <td><input class="num-btn" type="button" value="0" onclick="calculator(this.value)"></td>
                 <td><input class="num-btn" type="button" value="." onclick="calculator(this.value)"></td>
                 <td><input class="num-btn" type="button" value="/" onclick="calculator(this.value)"></td>
-                <td><input class="num-btn" type="button" value="=" onclick="equal()"></td>
+                <td><input style="background-color: rgb(28, 31, 184); " class="num-btn" type="button" value="=" onclick="equal()"></td>
             </tr>
         </table>
     </div>
@@ -73,6 +73,9 @@
                     let abc = document.getElementById("display").value;
                     document.getElementById("display").value = abc .substring(0, abc .length -1);
                 }
+
+
+               
         </script>
 </body>
 </html>
